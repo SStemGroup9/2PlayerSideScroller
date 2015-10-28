@@ -1,0 +1,918 @@
+﻿[2015.10.22-22.53.29:617][  0]Log file open, 10/22/15 18:53:29
+[2015.10.22-22.53.29:617][  0]LogInit:Display: Running engine for game: testing
+[2015.10.22-22.53.29:617][  0]LogInit:Display: RandInit(-1046919123) SRandInit(-1046919123).
+[2015.10.22-22.53.29:617][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.22-22.53.29:617][  0]LogStats: Stats thread started at 0.073031
+[2015.10.22-22.53.29:617][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-22.53.29:617][  0]LogInit: API Version: 2672455
+[2015.10.22-22.53.29:617][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.22-22.53.29:617][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.22-22.53.29:617][  0]LogInit: Build Configuration: Development
+[2015.10.22-22.53.29:617][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.22-22.53.29:617][  0]LogInit: Command line: 
+[2015.10.22-22.53.29:617][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.22-22.53.29:617][  0]LogInit: Rocket: 1
+[2015.10.22-22.53.29:630][  0]LogInit: Using libcurl 7.41.0
+[2015.10.22-22.53.29:630][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.22-22.53.29:630][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.22-22.53.29:630][  0]LogInit:  - other features:
+[2015.10.22-22.53.29:630][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.22-22.53.29:630][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.22-22.53.29:630][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.22-22.53.29:630][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.22-22.53.29:630][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.22-22.53.29:630][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.22-22.53.29:630][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.22-22.53.29:630][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.22-22.53.29:630][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.22-22.53.29:630][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.22-22.53.29:641][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.22-22.53.29:662][  0]LogInit: Object subsystem initialized
+[2015.10.22-22.53.29:666][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-22.53.29:666][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.22-22.53.29:679][  0]LogInit: Computer: CS-ABH319-6
+[2015.10.22-22.53.29:679][  0]LogInit: User: yangh1
+[2015.10.22-22.53.29:679][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.22-22.53.29:679][  0]LogInit: High frequency timer resolution =3.020400 MHz
+[2015.10.22-22.53.29:679][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.22-22.53.29:679][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.22-22.53.29:679][  0]LogMemory: Process Physical Memory: 53.60 MB used, 53.60 MB peak
+[2015.10.22-22.53.29:679][  0]LogMemory: Process Virtual Memory: 58.34 MB used, 58.34 MB peak
+[2015.10.22-22.53.29:679][  0]LogMemory: Physical Memory: 3811.22 MB used, 8100.34 MB total
+[2015.10.22-22.53.29:679][  0]LogMemory: Virtual Memory: 340.43 MB used, 8388608.00 MB total
+[2015.10.22-22.53.29:753][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.10.22-22.53.30:810][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.22-22.53.30:810][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.10.22-22.53.30:810][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.22-22.53.30:819][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.22-22.53.30:819][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.10.22-22.53.30:826][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.22-22.53.30:832][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Intermediate/Shaders/WorkingDirectory/4732/).
+[2015.10.22-22.53.30:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Intermediate/Shaders/tmp/190E98C64626451721BE01ABE0267924/'.
+[2015.10.22-22.53.30:832][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.22-22.53.31:940][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.22-22.53.31:946][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.22-22.53.31:951][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.22-22.53.31:955][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.22-22.53.31:960][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.22-22.53.31:964][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.22-22.53.31:966][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.22-22.53.31:969][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.22-22.53.31:972][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.22-22.53.31:976][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.22-22.53.31:979][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.22-22.53.31:983][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.22-22.53.31:983][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.22-22.53.31:999][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.22-22.53.32:002][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.22-22.53.32:006][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.22-22.53.32:010][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.22-22.53.32:010][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.22-22.53.32:089][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/yangh1/Documents/Unreal Projects/testing/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/yangh1/Documents/Unreal Projects/testing/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.22-22.53.32:172][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.22-22.53.32:309][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.22-22.53.32:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yangh1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.22-22.53.32:506][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-22.53.32:507][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.22-22.53.32:533][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.22-22.53.32:533][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.22-22.53.33:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.22-22.53.33:703][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.22-22.53.33:797][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.10.22-22.53.33:963][  0]SourceControl: Info Source control is disabled
+[2015.10.22-22.53.33:963][  0]SourceControl: Info Source control is disabled
+[2015.10.22-22.53.33:976][  0]SourceControl: Info Source control is disabled
+[2015.10.22-22.53.33:984][  0]SourceControl: Info Source control is disabled
+[2015.10.22-22.53.34:110][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-22.53.34:172][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.22-22.53.34:172][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.22-22.53.34:225][  0]LogEngine: Initializing Engine...
+[2015.10.22-22.53.34:227][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.22-22.53.34:227][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.22-22.53.34:357][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-22.53.34:361][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-22.53.34:373][  0]LogInit: FAudioDevice initialized.
+[2015.10.22-22.53.34:405][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-22.53.34:417][  0]LogInit: Texture streaming: Enabled
+[2015.10.22-22.53.34:423][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.22-22.53.34:423][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-22.53.34:424][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0a02a1894f01026e01350f8ae410552d|21b203b8b4f442bc96ea185f2d6eedc6|6ab6d668-53a2-49e2-adf9-8ee185571a97
+[2015.10.22-22.53.34:424][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.22-22.53.34:450][  0]LogInit: Transaction tracking system initialized
+[2015.10.22-22.53.34:478][  0]BlueprintLog: New page: Editor Load
+[2015.10.22-22.53.34:550][  0]LocalizationService: Info Localization service is disabled
+[2015.10.22-22.53.34:789][  0]LogConsoleResponse:Display: 
+[2015.10.22-22.53.34:900][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.22-22.53.34:946][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/Unreal Projects/testing/Content/' took 0.01s
+[2015.10.22-22.53.34:946][  0]SourceControl: Info Source control is disabled
+[2015.10.22-22.53.34:947][  0]Cmd: MAP LOAD FILE="../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-22.53.34:947][  0]LightingResults: New page: Lighting Build
+[2015.10.22-22.53.34:950][  0]MapCheck: New page: Map Check
+[2015.10.22-22.53.34:950][  0]LightingResults: New page: Lighting Build
+[2015.10.22-22.53.34:959][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002002E160
+[2015.10.22-22.53.35:299][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.22-22.53.35:321][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-22.53.35:333][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-22.53.35:396][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.337ms to complete.
+[2015.10.22-22.53.35:396][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.450
+[2015.10.22-22.53.35:739][  0]LogCollectionManager: Loaded 0 collections in 0.002009 seconds
+[2015.10.22-22.53.35:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/Unreal Projects/testing/Saved/Collections/' took 0.01s
+[2015.10.22-22.53.35:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/Unreal Projects/testing/Content/Developers/yangh1/Collections/' took 0.01s
+[2015.10.22-22.53.35:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/Unreal Projects/testing/Content/Collections/' took 0.01s
+[2015.10.22-22.53.35:778][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 1867 classes and 333 folders.
+[2015.10.22-22.53.35:783][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.22-22.53.35:789][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.22-22.53.35:822][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.22-22.53.35:826][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.10.22-22.53.35:846][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.22-22.53.35:849][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.22-22.53.35:870][  0]LogLoad: Full Startup: 6.86 seconds (BP compile: 0.08 seconds)
+[2015.10.22-22.53.35:879][  0]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Failed import for ArrowComponent /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.Default__2DSideScrollerCharacter_C:Arrow
+[2015.10.22-22.53.35:879][  0]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Failed import for CharacterMovementComponent /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.Default__2DSideScrollerCharacter_C:CharMoveComp
+[2015.10.22-22.53.35:880][  0]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap : Failed import for PaperFlipbookComponent /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.Default__2DSideScrollerCharacter_C:Sprite0
+[2015.10.22-22.53.35:937][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.22-22.53.36:064][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.10.22-22.53.36:484][  3]LogAssetRegistry: Asset discovery search completed in 2.6961 seconds
+[2015.10.22-22.53.36:484][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2015.10.22-22.53.36:484][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2015.10.22-22.54.08:666][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.08:666][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-22.54.08:701][769]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 22, 2015, 2:54:08 PM)
+[2015.10.22-22.54.08:701][769]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.10.22-22.54.08:704][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002761s)
+[2015.10.22-22.54.08:705][769]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.22-22.54.08:705][769]LogPlayLevel: PIE: World Init took: (0.001255s)
+[2015.10.22-22.54.08:705][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004210s)
+[2015.10.22-22.54.08:722][769]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-22.54.08:733][769]LogInit: FAudioDevice initialized.
+[2015.10.22-22.54.08:828][769]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.22-22.54.08:845][769]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.10.22-18.54.08
+[2015.10.22-22.54.08:845][769]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-22.54.08:845][769]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-22.54.08:845][769]LogWorld: Bringing up level for play took: 0.003127
+[2015.10.22-22.54.08:846][769]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.10.22-22.54.08:857][769]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.10.22-22.54.08:857][769]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.10.22-22.54.08:857][769]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.5
+[2015.10.22-22.54.08:857][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.16:767][ 14]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:773][ 14]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:800][ 15]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:800][ 15]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:831][ 16]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:832][ 16]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:861][ 17]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:862][ 17]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:895][ 18]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:896][ 18]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:934][ 19]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:935][ 19]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:970][ 20]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:971][ 20]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.16:998][ 21]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.16:999][ 21]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:035][ 22]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:036][ 22]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:063][ 23]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:064][ 23]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:100][ 24]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:101][ 24]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:128][ 25]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:129][ 25]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:166][ 26]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:166][ 26]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:195][ 27]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:196][ 27]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:234][ 28]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:234][ 28]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:270][ 29]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:270][ 29]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:300][ 30]LogScript:Warning: Accessed None 'CallFunc_K2_GetPawn_ReturnValue2'
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_6
+	Function /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter_C:ExecuteUbergraph_2DSideScrollerCharacter:06E5
+[2015.10.22-22.54.17:300][ 30]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:340][ 31]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:368][ 32]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:405][ 33]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:433][ 34]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:469][ 35]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:496][ 36]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:535][ 37]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:567][ 38]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:606][ 39]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:645][ 40]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:672][ 41]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:709][ 42]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:738][ 43]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:774][ 44]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:803][ 45]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:839][ 46]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:871][ 47]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:909][ 48]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:939][ 49]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.17:978][ 50]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:004][ 51]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:039][ 52]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:066][ 53]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:100][ 54]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:130][ 55]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:167][ 56]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:195][ 57]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:234][ 58]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:269][ 59]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:299][ 60]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:337][ 61]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:363][ 62]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:400][ 63]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:429][ 64]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:467][ 65]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:504][ 66]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:537][ 67]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:571][ 68]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:614][ 69]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:651][ 70]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:678][ 71]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:712][ 72]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:737][ 73]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:769][ 74]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:799][ 75]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:838][ 76]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:868][ 77]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:900][ 78]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:940][ 79]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.18:978][ 80]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:005][ 81]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:041][ 82]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:068][ 83]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:106][ 84]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:133][ 85]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:166][ 86]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:198][ 87]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:234][ 88]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:272][ 89]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:303][ 90]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:334][ 91]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:366][ 92]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:402][ 93]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:430][ 94]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:467][ 95]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:494][ 96]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:531][ 97]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:563][ 98]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:602][ 99]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:639][100]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:667][101]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:702][102]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:730][103]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:766][104]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:793][105]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:829][106]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:858][107]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:897][108]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:935][109]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:961][110]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.19:998][111]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:024][112]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:058][113]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:087][114]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:122][115]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:151][116]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:187][117]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:217][118]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:257][119]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:294][120]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:320][121]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:356][122]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:383][123]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:422][124]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:448][125]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:485][126]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:511][127]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:549][128]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:577][129]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:619][130]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:656][131]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:683][132]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:718][133]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:745][134]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:781][135]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:807][136]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:844][137]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:875][138]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:909][139]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:951][140]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.20:977][141]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:015][142]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:042][143]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:078][144]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:104][145]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:137][146]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:167][147]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:206][148]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:242][149]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:275][150]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:310][151]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:338][152]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:375][153]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:402][154]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:438][155]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:464][156]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:502][157]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:530][158]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:570][159]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:609][160]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:637][161]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:673][162]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:699][163]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:735][164]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:763][165]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:798][166]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:826][167]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:863][168]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:901][169]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:931][170]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:967][171]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.21:993][172]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:025][173]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Jump in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:026][173]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:054][174]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:084][175]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:119][176]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:147][177]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:182][178]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:210][179]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:251][180]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:287][181]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:313][182]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:347][183]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:374][184]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:408][185]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:436][186]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:467][187]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:498][188]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:537][189]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:567][190]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:604][191]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:642][192]PIE:Error: Error Accessed None 'CallFunc_GetPlayerCharacter_ReturnValue' from node Jump in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:643][192]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:667][193]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:702][194]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:729][195]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:766][196]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:792][197]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:828][198]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:854][199]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:892][200]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:935][201]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:963][202]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.22:998][203]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:024][204]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:061][205]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:087][206]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:122][207]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:152][208]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:191][209]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:228][210]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:269][211]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:294][212]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:328][213]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:358][214]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:395][215]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:423][216]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:459][217]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:487][218]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:523][219]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:556][220]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:592][221]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:631][222]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:657][223]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:694][224]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:720][225]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:755][226]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:782][227]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:816][228]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:843][229]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:879][230]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:912][231]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:947][232]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.23:983][233]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:009][234]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:046][235]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:073][236]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:109][237]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:134][238]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:171][239]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:200][240]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:241][241]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:271][242]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:308][243]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:333][244]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:367][245]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:396][246]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:431][247]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:460][248]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:493][249]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:522][250]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:563][251]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:604][252]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:630][253]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.24:672][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.24:744][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.24:758][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026A8CD60
+[2015.10.22-22.54.31:969][420]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.31:969][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-22.54.31:969][420]PIE: New page: PIE session: 2DSideScrollerExampleMap (Oct 22, 2015, 2:54:31 PM)
+[2015.10.22-22.54.31:969][420]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.10.22-22.54.31:978][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008750s)
+[2015.10.22-22.54.31:979][420]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.10.22-22.54.31:980][420]LogPlayLevel: PIE: World Init took: (0.001806s)
+[2015.10.22-22.54.31:981][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.011260s)
+[2015.10.22-22.54.31:995][420]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.22-22.54.32:006][420]LogInit: FAudioDevice initialized.
+[2015.10.22-22.54.32:042][420]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.10.22-22.54.32:045][420]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.10.22-18.54.32
+[2015.10.22-22.54.32:045][420]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-22.54.32:045][420]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-22.54.32:045][420]LogWorld: Bringing up level for play took: 0.002468
+[2015.10.22-22.54.32:046][420]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.10.22-22.54.32:047][420]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.10.22-22.54.32:047][420]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.10.22-22.54.32:048][420]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.31
+[2015.10.22-22.54.32:048][420]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.49:628][254]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:649][255]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:679][256]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:697][257]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:718][258]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:735][259]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:754][260]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:775][261]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:793][262]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:812][263]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:830][264]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:849][265]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:868][266]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:886][267]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:908][268]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:928][269]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:960][270]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:978][271]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.49:996][272]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:018][273]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:036][274]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:056][275]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:074][276]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:095][277]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:112][278]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:133][279]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:151][280]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:172][281]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:190][282]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:209][283]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:227][284]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:245][285]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:268][286]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:299][287]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:317][288]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:336][289]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:354][290]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:375][291]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:393][292]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:413][293]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:434][294]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:448][295]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:471][296]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:488][297]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:507][298]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:525][299]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:542][300]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:564][301]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:584][302]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:603][303]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:634][304]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:652][305]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:669][306]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:690][307]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:709][308]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:726][309]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:744][310]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:762][311]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:781][312]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:801][313]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:819][314]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:837][315]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:855][316]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:873][317]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:894][318]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:914][319]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:933][320]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:964][321]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:981][322]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.50:998][323]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:019][324]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:038][325]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:056][326]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:074][327]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:091][328]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:109][329]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:127][330]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:149][331]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:167][332]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:185][333]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:202][334]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:220][335]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:242][336]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:264][337]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:288][338]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:306][339]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:327][340]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:345][341]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:366][342]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:384][343]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:404][344]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:421][345]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:441][346]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:459][347]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:479][348]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:497][349]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:515][350]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:534][351]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:551][352]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:573][353]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:595][354]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:620][355]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:643][356]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:662][357]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:682][358]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:700][359]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:719][360]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:737][361]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:754][362]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:776][363]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:795][364]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:812][365]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:830][366]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:848][367]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:866][368]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:887][369]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:906][370]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:925][371]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:956][372]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:974][373]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.51:992][374]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:014][375]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:033][376]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:050][377]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:069][378]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:087][379]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:105][380]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:126][381]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:145][382]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:164][383]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:183][384]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:205][385]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:223][386]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:242][387]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:263][388]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:293][389]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:314][390]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:332][391]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:351][392]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:371][393]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:392][394]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:410][395]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:429][396]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:449][397]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:469][398]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:488][399]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:506][400]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:525][401]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:546][402]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:564][403]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:585][404]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:606][405]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:635][406]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:655][407]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:673][408]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:692][409]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:711][410]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:730][411]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:753][412]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:770][413]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:790][414]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:808][415]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:830][416]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:849][417]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:868][418]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:885][419]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:904][420]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:927][421]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:957][422]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:975][423]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.52:995][424]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:012][425]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:034][426]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:052][427]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:071][428]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:090][429]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:108][430]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:129][431]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:148][432]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:167][433]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:185][434]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:207][435]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:224][436]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:245][437]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:266][438]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:292][439]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:314][440]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:329][441]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:354][442]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:370][443]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:391][444]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:408][445]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:427][446]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:449][447]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:470][448]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:487][449]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:505][450]PIE:Error: Error Accessed None 'CallFunc_K2_GetPawn_ReturnValue2' from node Add Movement Input in graph 'EventGraph' in blueprint 2DSideScrollerCharacter
+[2015.10.22-22.54.53:529][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.53:567][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.10.22-22.54.53:590][451]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000129DD080
+[2015.10.22-22.55.01:579][635]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-22.55.02:119][635]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.10.22-22.55.09:265][785]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.10.22-22.56.04:450][251]LogSavePackage: Save=91.827904ms
+[2015.10.22-22.56.04:450][251]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Saved/2DSideScrollerCharacterA825135B49105A8A54C583899DF8D803.tmp' to '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.04:450][251]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset', retrying in .5s...
+[2015.10.22-22.56.04:950][251]LogFileManager:Error: Error deleting file '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'.
+[2015.10.22-22.56.04:950][251]LogSavePackage:Error: Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.04:952][251]LogSavePackage: Total save time: 599.973183ms
+[2015.10.22-22.56.04:952][251]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.10.22-22.56.13:618][251]LogSavePackage: Save=85.881668ms
+[2015.10.22-22.56.13:618][251]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Saved/2DSideScrollerCharacterB40A675C4403D75378A63ABCA417E3F5.tmp' to '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.13:619][251]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset', retrying in .5s...
+[2015.10.22-22.56.14:119][251]LogFileManager:Error: Error deleting file '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'.
+[2015.10.22-22.56.14:119][251]LogSavePackage:Error: Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.14:120][251]LogSavePackage: Total save time: 588.811744ms
+[2015.10.22-22.56.14:120][251]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.10.22-22.56.15:356][251]EditorErrors: New page: Save Output
+[2015.10.22-22.56.15:356][251]EditorErrors:Warning: Warning Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.15:356][251]EditorErrors:Warning: Warning Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.21:756][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002040A3E0
+[2015.10.22-22.56.23:832][426]LogSavePackage: Save=87.286118ms
+[2015.10.22-22.56.23:832][426]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Saved/2DSideScrollerCharacterC4F9B6094E9DEBE146E961B21EDB48E0.tmp' to '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.23:833][426]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset', retrying in .5s...
+[2015.10.22-22.56.24:333][426]LogFileManager:Error: Error deleting file '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'.
+[2015.10.22-22.56.24:333][426]LogSavePackage:Error: Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.24:334][426]LogSavePackage: Total save time: 590.737320ms
+[2015.10.22-22.56.24:334][426]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.10.22-22.56.25:398][426]EditorErrors: New page: Save Output
+[2015.10.22-22.56.25:398][426]EditorErrors:Warning: Warning Error saving '../../../../../../Users/yangh1/Documents/Unreal Projects/testing/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.10.22-22.56.32:770][582]Cmd: QUIT_EDITOR
+[2015.10.22-22.56.33:078][582]LogExit: Preparing to exit.
+[2015.10.22-22.56.33:865][582]LogExit: Editor shut down
+[2015.10.22-22.56.33:866][582]LogExit: Transaction tracking system shut down
+[2015.10.22-22.56.33:871][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FFED580
+[2015.10.22-22.56.33:871][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001234B880
+[2015.10.22-22.56.33:873][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000020327420
+[2015.10.22-22.56.34:132][582]LogExit: Object subsystem successfully closed.
+[2015.10.22-22.56.34:153][582]LogD3D11RHI: Shutdown
+[2015.10.22-22.56.34:153][582]LogD3D11RHI: CleanupD3DDevice
+[2015.10.22-22.56.35:237][582]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module BlueprintGraph (198)
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2015.10.22-22.56.35:254][582]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.10.22-22.56.35:275][582]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.10.22-22.56.35:600][582]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.10.22-22.56.35:601][582]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.10.22-22.56.35:749][582]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.10.22-22.56.35:755][582]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.10.22-22.56.35:757][582]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.10.22-22.56.35:759][582]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.10.22-22.56.35:889][582]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.10.22-22.56.35:890][582]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.10.22-22.56.35:890][582]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.10.22-22.56.35:990][582]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.10.22-22.56.35:990][582]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.10.22-22.56.35:990][582]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.10.22-22.56.35:994][582]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.10.22-22.56.35:994][582]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.10.22-22.56.35:995][582]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.10.22-22.56.35:998][582]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.10.22-22.56.36:025][582]LogDerivedDataCache: Shutdown
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.10.22-22.56.36:025][582]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.10.22-22.56.37:026][582]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.22-22.56.37:027][582]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.22-22.56.37:027][582]LogExit: Exiting.
+[2015.10.22-22.56.37:041][582]Log file closed, 10/22/15 18:56:37
