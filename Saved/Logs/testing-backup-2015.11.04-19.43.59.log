@@ -1,0 +1,945 @@
+﻿[2015.11.05-00.01.46:476][  0]Log file open, 11/04/15 19:01:46
+[2015.11.05-00.01.46:476][  0]LogInit:Display: Running engine for game: testing
+[2015.11.05-00.01.46:476][  0]LogInit:Display: RandInit(1362851419) SRandInit(1362851419).
+[2015.11.05-00.01.46:476][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.05-00.01.46:476][  0]LogStats: Stats thread started at 0.075903
+[2015.11.05-00.01.46:476][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.05-00.01.46:476][  0]LogInit: API Version: 2672455
+[2015.11.05-00.01.46:476][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.05-00.01.46:476][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.05-00.01.46:476][  0]LogInit: Build Configuration: Development
+[2015.11.05-00.01.46:476][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.05-00.01.46:476][  0]LogInit: Command line: 
+[2015.11.05-00.01.46:476][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.05-00.01.46:476][  0]LogInit: Rocket: 1
+[2015.11.05-00.01.46:485][  0]LogInit: Using libcurl 7.41.0
+[2015.11.05-00.01.46:485][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.05-00.01.46:485][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.05-00.01.46:485][  0]LogInit:  - other features:
+[2015.11.05-00.01.46:485][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.05-00.01.46:485][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.05-00.01.46:485][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.05-00.01.46:485][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.05-00.01.46:485][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.05-00.01.46:485][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.05-00.01.46:485][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.05-00.01.46:485][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.05-00.01.46:485][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.05-00.01.46:485][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.05-00.01.46:492][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.05-00.01.46:501][  0]LogInit: Object subsystem initialized
+[2015.11.05-00.01.46:503][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-00.01.46:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.05-00.01.46:516][  0]LogInit: Computer: CS-ABH319-6
+[2015.11.05-00.01.46:516][  0]LogInit: User: yangh1
+[2015.11.05-00.01.46:516][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.05-00.01.46:516][  0]LogInit: High frequency timer resolution =3.020419 MHz
+[2015.11.05-00.01.46:516][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.11.05-00.01.46:516][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.05-00.01.46:516][  0]LogMemory: Process Physical Memory: 53.79 MB used, 53.79 MB peak
+[2015.11.05-00.01.46:516][  0]LogMemory: Process Virtual Memory: 58.36 MB used, 58.36 MB peak
+[2015.11.05-00.01.46:516][  0]LogMemory: Physical Memory: 4151.77 MB used, 8100.34 MB total
+[2015.11.05-00.01.46:516][  0]LogMemory: Virtual Memory: 340.43 MB used, 8388608.00 MB total
+[2015.11.05-00.01.46:554][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.05-00.01.47:576][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.05-00.01.47:576][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2015.11.05-00.01.47:576][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.05-00.01.47:588][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.05-00.01.47:589][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2015.11.05-00.01.47:597][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.05-00.01.47:603][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Intermediate/Shaders/WorkingDirectory/5328/).
+[2015.11.05-00.01.47:603][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Intermediate/Shaders/tmp/382F24DB497FAB8BFFF8A8AC69A06886/'.
+[2015.11.05-00.01.47:603][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.05-00.01.49:155][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.05-00.01.49:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.05-00.01.49:173][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.05-00.01.49:186][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.05-00.01.49:194][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.05-00.01.49:203][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.05-00.01.49:210][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.05-00.01.49:216][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.05-00.01.49:221][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.05-00.01.49:231][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.05-00.01.49:235][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.05-00.01.49:240][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.05-00.01.49:241][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.05-00.01.49:265][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.05-00.01.49:270][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.05-00.01.49:276][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.05-00.01.49:281][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.05-00.01.49:281][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.05-00.01.49:386][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.05-00.01.49:488][  0]LogDerivedDataCache: Loaded boot cache 0.10s 41MB C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-00.01.49:488][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.05-00.01.49:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.05-00.01.49:489][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.05-00.01.49:489][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.05-00.01.49:489][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.05-00.01.49:690][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.05-00.01.49:702][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yangh1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.05-00.01.49:958][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.05-00.01.49:959][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.05-00.01.49:988][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.05-00.01.49:988][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.05-00.01.50:690][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.05-00.01.51:508][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.05-00.01.51:603][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.11.05-00.01.51:833][  0]SourceControl: Info Source control is disabled
+[2015.11.05-00.01.51:853][  0]SourceControl: Info Source control is disabled
+[2015.11.05-00.01.51:866][  0]SourceControl: Info Source control is disabled
+[2015.11.05-00.01.51:882][  0]SourceControl: Info Source control is disabled
+[2015.11.05-00.01.52:043][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-00.01.52:133][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.05-00.01.52:133][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.05-00.01.52:214][  0]LogEngine: Initializing Engine...
+[2015.11.05-00.01.52:217][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.05-00.01.52:217][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.05-00.01.52:491][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.05-00.01.52:495][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.01.52:593][  0]LogInit: FAudioDevice initialized.
+[2015.11.05-00.01.52:661][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/yangh1/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.05-00.01.52:679][  0]LogInit: Texture streaming: Enabled
+[2015.11.05-00.01.52:684][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.05-00.01.52:684][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.05-00.01.52:685][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0a02a1894f01026e01350f8ae410552d|21b203b8b4f442bc96ea185f2d6eedc6|6ab6d668-53a2-49e2-adf9-8ee185571a97
+[2015.11.05-00.01.52:685][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.05-00.01.52:727][  0]LogInit: Transaction tracking system initialized
+[2015.11.05-00.01.52:765][  0]BlueprintLog: New page: Editor Load
+[2015.11.05-00.01.52:875][  0]LocalizationService: Info Localization service is disabled
+[2015.11.05-00.01.53:186][  0]LogConsoleResponse:Display: 
+[2015.11.05-00.01.53:372][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.05-00.01.53:453][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/' took 0.02s
+[2015.11.05-00.01.53:453][  0]SourceControl: Info Source control is disabled
+[2015.11.05-00.01.53:453][  0]Cmd: MAP LOAD FILE="../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.05-00.01.53:454][  0]LightingResults: New page: Lighting Build
+[2015.11.05-00.01.53:462][  0]MapCheck: New page: Map Check
+[2015.11.05-00.01.53:463][  0]LightingResults: New page: Lighting Build
+[2015.11.05-00.01.53:593][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F9DA160
+[2015.11.05-00.01.53:771][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.01.53:775][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.05-00.01.53:777][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.05-00.01.53:862][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.491ms to complete.
+[2015.11.05-00.01.53:862][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.409
+[2015.11.05-00.01.53:973][  0]LogCollectionManager: Loaded 0 collections in 0.003500 seconds
+[2015.11.05-00.01.54:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/Collections/' took 0.01s
+[2015.11.05-00.01.54:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/Developers/yangh1/Collections/' took 0.01s
+[2015.11.05-00.01.54:011][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/Collections/' took 0.01s
+[2015.11.05-00.01.54:011][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 1867 classes and 333 folders.
+[2015.11.05-00.01.54:017][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2015.11.05-00.01.54:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.05-00.01.54:065][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.05-00.01.54:069][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.11.05-00.01.54:095][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.05-00.01.54:099][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.05-00.01.54:121][  0]LogLoad: Full Startup: 8.32 seconds (BP compile: 0.05 seconds)
+[2015.11.05-00.01.54:191][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.05-00.01.54:326][  2]LogRenderer: Reallocating scene render targets to support 816x372 (Frame:2).
+[2015.11.05-00.01.54:683][  2]LogAssetRegistry: Asset discovery search completed in 3.0903 seconds
+[2015.11.05-00.01.54:683][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.05-00.01.54:683][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2015.11.05-00.02.01:757][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:757][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:757][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:757][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:758][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:758][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:760][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health 
+[2015.11.05-00.02.01:760][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth 
+[2015.11.05-00.02.01:761][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.01:762][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.01:763][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.01:763][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.01:763][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health  could not be found
+[2015.11.05-00.02.01:763][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health  could not be found
+[2015.11.05-00.02.01:763][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.01:764][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.01:764][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.01:764][344]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.01:768][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning [0015.97] Compile of Blueprint_playerhealthHUD2 failed. 6 Fatal Issue(s) 6 Warning(s) [in 9 ms]
+[2015.11.05-00.02.01:768][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning [0015.97] Compile of Blueprint_playerhealthHUD2 failed. 6 Fatal Issue(s) 7 Warning(s) [in 0 ms]
+[2015.11.05-00.02.01:768][344]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning [0015.97] Compile of Blueprint_playerhealthHUD2 failed. 6 Fatal Issue(s) 8 Warning(s) [in 0 ms]
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:769][344]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.01:832][344]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.05-00.02.02:336][344]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2015.11.05-00.02.13:585][708]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.17:446][816]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.18:971][870]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.19:014][870]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.25:677][ 95]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.26:319][115]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.28:953][201]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.28:969][201]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.28:983][201]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.29:012][201]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.33:730][338]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.02.33:769][338]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.33:769][338]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.33:769][338]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.33:769][338]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.33:780][338]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.33:780][338]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.33:780][338]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.33:780][338]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.33:781][338]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.33:781][338]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.33:781][338]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.33:782][338]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.33:820][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C089A0
+[2015.11.05-00.02.33:822][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011C0ACA0
+[2015.11.05-00.02.33:833][338]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_0.CollisionCylinder and CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.33:833][338]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_0.Arrow and ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.33:833][338]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_0.CharMoveComp and CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.33:833][338]LogUObjectGlobals:Warning: Guid is in use by PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_0.Sprite0 and PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.Sprite0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.33:976][338]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.33:978][338]BlueprintEditorCompileResults: Info [0048.17] Compile of 2DSideScrollerCharacter successful! [in 247 ms]
+[2015.11.05-00.02.33:998][338]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.35:867][394]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.38:020][464]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.38:034][464]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.38:047][464]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.38:078][464]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.41:350][561]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.02.41:388][561]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.41:388][561]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.41:388][561]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'MaxHealth2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.41:388][561]LogBlueprint:Warning: [Blueprint_playerhealthHUD2] CreatePinForVariable: 'Health2' variable not found. Base class was probably changed.
+[2015.11.05-00.02.41:401][561]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.41:402][561]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.41:402][561]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "MaxHealth2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get MaxHealth2 
+[2015.11.05-00.02.41:402][561]LogBlueprint:Warning: [compiler Blueprint_playerhealthHUD2] Warning Could not find a variable named "Health2" in '2DSideScrollerCharacter_C'.
+Make sure '2DSideScrollerCharacter_C' has been compiled for  Get Health2 
+[2015.11.05-00.02.41:403][561]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.41:403][561]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.41:403][561]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Max Health 2  could not be found
+[2015.11.05-00.02.41:403][561]LogBlueprint:Error: [compiler Blueprint_playerhealthHUD2] Error The property associated with  Health 2  could not be found
+[2015.11.05-00.02.41:446][561]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.CollisionCylinder and CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.41:446][561]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.Arrow and ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.41:446][561]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.CharMoveComp and CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.41:446][561]LogUObjectGlobals:Warning: Guid is in use by PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_1.Sprite0 and PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.Sprite0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.02.41:592][561]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.41:593][561]BlueprintEditorCompileResults: Info [0055.79] Compile of 2DSideScrollerCharacter successful! [in 243 ms]
+[2015.11.05-00.02.41:611][561]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.47:333][753]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.48:036][774]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.48:858][795]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.50:557][859]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.50:594][859]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.51:278][877]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.52:907][933]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.52:942][933]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.53:762][957]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.55:805][ 14]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.58:697][108]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.58:722][108]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.02.59:487][130]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.03.03:112][229]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.03.03:828][248]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.03.03:929][248]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.CollisionCylinder and CapsuleComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.03.03:929][248]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.Arrow and ArrowComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.03.03:929][248]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.CharMoveComp and CharacterMovementComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.03.03:929][248]LogUObjectGlobals:Warning: Guid is in use by PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_2.Sprite0 and PaperFlipbookComponent /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerCharacter_C_3.Sprite0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.11.05-00.03.04:057][248]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.03.04:059][248]BlueprintEditorCompileResults: Info [0078.25] Compile of 2DSideScrollerCharacter successful! [in 230 ms]
+[2015.11.05-00.03.04:089][248]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.03.04:994][269]LogSavePackage: Save=88.544998ms
+[2015.11.05-00.03.04:994][269]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerCharacter2DF029634BAD4EDE679B6BAAF35D0EB9.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.11.05-00.03.04:997][269]LogSavePackage: Total save time: 102.550671ms
+[2015.11.05-00.03.04:997][269]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.11.05-00.04.00:786][851]LogSavePackage: Save=44.572956ms
+[2015.11.05-00.04.00:786][851]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/Blueprint_playerhealthHUD25C3C00C24753D0698A1BF6AF79CE4E40.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprint_playerhealthHUD2.uasset'
+[2015.11.05-00.04.00:787][851]LogSavePackage: Total save time: 54.490123ms
+[2015.11.05-00.04.00:787][851]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprint_playerhealthHUD2.uasset
+[2015.11.05-00.04.02:720][912]BlueprintLog: New page: Compile Blueprint_playerhealthHUD2
+[2015.11.05-00.04.02:835][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034955760
+[2015.11.05-00.04.02:837][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000349549A0
+[2015.11.05-00.04.02:848][912]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.11.05-00.04.02:848][912]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.11.05-00.04.02:848][912]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Cast Failed 
+[2015.11.05-00.04.02:848][912]BlueprintEditorCompileResults: Info [0137.04] Compile of Blueprint_playerhealthHUD2 successful! [in 127 ms]
+[2015.11.05-00.04.08:096][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.04.08:096][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.04.08:097][ 87]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:04:08 PM)
+[2015.11.05-00.04.08:097][ 87]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.04.08:101][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003938s)
+[2015.11.05-00.04.08:102][ 87]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.04.08:102][ 87]LogPlayLevel: PIE: World Init took: (0.001414s)
+[2015.11.05-00.04.08:103][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005859s)
+[2015.11.05-00.04.08:134][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034954D60
+[2015.11.05-00.04.08:134][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034956160
+[2015.11.05-00.04.08:141][ 87]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.04.08:152][ 87]LogInit: FAudioDevice initialized.
+[2015.11.05-00.04.08:201][ 87]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.04.08:206][ 87]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.04.08
+[2015.11.05-00.04.08:206][ 87]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.04.08:206][ 87]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.04.08:207][ 87]LogWorld: Bringing up level for play took: 0.004637
+[2015.11.05-00.04.08:208][ 87]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.04.08:210][ 87]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.04.08:210][ 87]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.04.08:211][ 87]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.808
+[2015.11.05-00.04.08:211][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.04.13:323][362]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.04.13:366][362]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.04.13:401][362]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000354E6200
+[2015.11.05-00.04.32:254][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CreateWidget /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:ExecuteUbergraph_2DSideScrollerCharacter.K2Node_CreateWidget_4 or K2Node_CreateWidget /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_CreateWidget_4
+[2015.11.05-00.04.32:254][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CreateWidget_4.EdGraphPin_3463''
+[2015.11.05-00.04.32:255][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:ExecuteUbergraph_2DSideScrollerCharacter.K2Node_VariableGet_12 or K2Node_VariableGet /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_VariableGet_12
+[2015.11.05-00.04.32:255][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_12.EdGraphPin_2604''
+[2015.11.05-00.04.32:273][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_CallFunction_2321 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2321
+[2015.11.05-00.04.32:273][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2321.EdGraphPin_2619''
+[2015.11.05-00.04.32:274][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2323 or K2Node_CallFunction /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_CallFunction_2323
+[2015.11.05-00.04.32:274][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2323.EdGraphPin_3490''
+[2015.11.05-00.04.32:274][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2323 or K2Node_CallFunction /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_CallFunction_2323
+[2015.11.05-00.04.32:274][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2323.EdGraphPin_3492''
+[2015.11.05-00.04.32:274][ 67]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.2DSideScrollerCharacter:EventGraph.K2Node_CallFunction_2322 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2322
+[2015.11.05-00.04.32:274][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2322.EdGraphPin_3481''
+[2015.11.05-00.04.32:275][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_51.EdGraphPin_2709''
+[2015.11.05-00.04.32:275][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2761.EdGraphPin_2724''
+[2015.11.05-00.04.32:276][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_51.EdGraphPin_2710''
+[2015.11.05-00.04.32:276][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2628.EdGraphPin_3529''
+[2015.11.05-00.04.32:276][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2628.EdGraphPin_3531''
+[2015.11.05-00.04.32:276][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2627.EdGraphPin_3520''
+[2015.11.05-00.04.32:277][ 67]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_51.EdGraphPin_2711''
+[2015.11.05-00.04.46:453][514]LogSavePackage: Save=96.913376ms
+[2015.11.05-00.04.46:453][514]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerCharacterD18105ED4C7017AE7A5DABAB6F5DC41D.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.11.05-00.04.46:485][514]LogSavePackage: Total save time: 131.757881ms
+[2015.11.05-00.04.46:485][514]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.11.05-00.04.47:134][535]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.04.47:299][535]BlueprintEditorCompileResults: Info [0181.49] Compile of 2DSideScrollerCharacter successful! [in 164 ms]
+[2015.11.05-00.04.50:824][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.04.50:824][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.04.50:824][634]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:04:50 PM)
+[2015.11.05-00.04.50:824][634]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.04.50:830][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005700s)
+[2015.11.05-00.04.50:831][634]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.04.50:831][634]LogPlayLevel: PIE: World Init took: (0.001418s)
+[2015.11.05-00.04.50:831][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007610s)
+[2015.11.05-00.04.50:870][634]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.04.50:881][634]LogInit: FAudioDevice initialized.
+[2015.11.05-00.04.50:917][634]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.04.50:921][634]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.04.50
+[2015.11.05-00.04.50:921][634]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.04.50:921][634]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.04.50:921][634]LogWorld: Bringing up level for play took: 0.003397
+[2015.11.05-00.04.50:922][634]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.04.50:926][634]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.04.50:926][634]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.04.50:926][634]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.096
+[2015.11.05-00.04.50:926][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.05.29:723][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.05.29:774][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.05.29:807][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000354E67A0
+[2015.11.05-00.07.53:336][841]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.08.42:304][752]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.08.42:342][754]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.08.54:156][ 98]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.08.54:317][ 98]LogBlueprintUserMessages: PostEditorRefresh for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.08.54:318][ 98]BlueprintEditorCompileResults: Info [0428.49] Compile of 2DSideScrollerCharacter successful! [in 161 ms]
+[2015.11.05-00.08.54:344][ 98]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.09.08:467][524]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.09.08:633][524]BlueprintEditorCompileResults: Info [0442.80] Compile of 2DSideScrollerCharacter successful! [in 165 ms]
+[2015.11.05-00.09.09:715][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.09.09:715][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.09.09:716][553]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:09:09 PM)
+[2015.11.05-00.09.09:716][553]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.09.09:721][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005301s)
+[2015.11.05-00.09.09:723][553]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.09.09:723][553]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2015.11.05-00.09.09:724][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007456s)
+[2015.11.05-00.09.09:759][553]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.09.09:769][553]LogInit: FAudioDevice initialized.
+[2015.11.05-00.09.09:802][553]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.09.09:806][553]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.09.09
+[2015.11.05-00.09.09:806][553]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.09.09:806][553]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.09.09:807][553]LogWorld: Bringing up level for play took: 0.003025
+[2015.11.05-00.09.09:808][553]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.09.09:811][553]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.09.09:811][553]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.09.09:811][553]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.772
+[2015.11.05-00.09.09:812][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.09.09:837][553]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:838][553]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:916][554]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:916][554]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:931][555]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:931][555]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:946][556]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:946][556]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:961][557]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:961][557]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:982][558]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.09:982][558]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:007][559]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:007][559]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:035][560]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:035][560]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:051][561]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:051][561]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:082][562]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:082][562]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:100][563]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:100][563]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:120][564]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:121][564]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:144][565]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:144][565]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:167][566]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:167][566]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:190][567]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:190][567]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:214][568]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:214][568]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:238][569]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:238][569]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:263][570]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:263][570]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:287][571]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:288][571]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:311][572]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:311][572]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:335][573]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:335][573]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:358][574]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:359][574]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:382][575]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:382][575]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:409][576]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:409][576]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:427][577]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:427][577]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:453][578]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:453][578]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:473][579]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:473][579]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:499][580]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:499][580]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:526][581]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:526][581]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:545][582]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:545][582]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:568][583]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:569][583]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:588][584]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:588][584]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:616][585]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:616][585]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:635][586]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:635][586]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:661][587]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:661][587]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:685][588]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:685][588]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:708][589]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:708][589]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:735][590]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:735][590]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:758][591]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:758][591]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:778][592]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:778][592]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:847][593]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:847][593]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:865][594]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:865][594]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:885][595]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:885][595]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:903][596]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:903][596]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:924][597]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:924][597]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:943][598]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:943][598]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:960][599]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:960][599]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:982][600]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.10:982][600]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.11:008][601]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.11:008][601]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.11:033][602]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.11:033][602]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.11:057][603]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.09.29:753][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.09.29:802][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.09.29:838][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038CB9760
+[2015.11.05-00.09.58:278][209]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.10.12:346][789]LogBlueprintUserMessages: CustomizeDetails for Blueprint '2DSideScrollerCharacter', cached variable property's owner is '/Game/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.SKEL_2DSideScrollerCharacter_C'
+[2015.11.05-00.10.30:214][359]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.10.30:362][359]BlueprintEditorCompileResults: Info [0524.53] Compile of 2DSideScrollerCharacter successful! [in 147 ms]
+[2015.11.05-00.10.32:048][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.10.32:048][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.10.32:048][410]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:10:32 PM)
+[2015.11.05-00.10.32:049][410]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.10.32:054][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005443s)
+[2015.11.05-00.10.32:056][410]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.10.32:056][410]LogPlayLevel: PIE: World Init took: (0.002057s)
+[2015.11.05-00.10.32:057][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008100s)
+[2015.11.05-00.10.32:101][410]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.10.32:112][410]LogInit: FAudioDevice initialized.
+[2015.11.05-00.10.32:156][410]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.10.32:160][410]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.10.32
+[2015.11.05-00.10.32:160][410]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.10.32:161][410]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.10.32:161][410]LogWorld: Bringing up level for play took: 0.003551
+[2015.11.05-00.10.32:163][410]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.10.32:165][410]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.10.32:165][410]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.10.32:167][410]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.878
+[2015.11.05-00.10.32:167][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.10.39:787][662]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.10.39:829][662]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.10.39:865][662]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000356A5760
+[2015.11.05-00.11.04:454][697]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2015.11.05-00.11.04:622][697]BlueprintEditorCompileResults: Info [0558.78] Compile of 2DSideScrollerCharacter successful! [in 167 ms]
+[2015.11.05-00.11.05:563][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.11.05:563][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.11.05:563][723]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:11:05 PM)
+[2015.11.05-00.11.05:563][723]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.11.05:568][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004736s)
+[2015.11.05-00.11.05:570][723]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.11.05:571][723]LogPlayLevel: PIE: World Init took: (0.002420s)
+[2015.11.05-00.11.05:571][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007895s)
+[2015.11.05-00.11.05:615][723]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.11.05:625][723]LogInit: FAudioDevice initialized.
+[2015.11.05-00.11.05:661][723]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.11.05:665][723]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.11.05
+[2015.11.05-00.11.05:665][723]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.11.05:666][723]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.11.05:666][723]LogWorld: Bringing up level for play took: 0.003852
+[2015.11.05-00.11.05:666][723]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.11.05:669][723]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.11.05:669][723]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.11.05:669][723]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.622
+[2015.11.05-00.11.05:669][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.11.05:691][723]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:691][723]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:758][724]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:758][724]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:777][725]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:777][725]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:799][726]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:799][726]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:819][727]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:819][727]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:839][728]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:839][728]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:858][729]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:858][729]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:882][730]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:882][730]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:899][731]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:899][731]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:923][732]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:923][732]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:948][733]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:948][733]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:973][734]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:973][734]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:996][735]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.05:996][735]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:021][736]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:021][736]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:046][737]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:046][737]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:072][738]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:072][738]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:099][739]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:099][739]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:120][740]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:120][740]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:142][741]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:142][741]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:167][742]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:167][742]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:190][743]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:190][743]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:212][744]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:212][744]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:236][745]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:236][745]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:301][746]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:301][746]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:318][747]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:318][747]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:338][748]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:338][748]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:358][749]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:358][749]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:377][750]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:377][750]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:397][751]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:397][751]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:488][752]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:488][752]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:510][753]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:511][753]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:532][754]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:532][754]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:551][755]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:551][755]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:570][756]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:570][756]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:590][757]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:591][757]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:610][758]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:610][758]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:632][759]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:632][759]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:654][760]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:654][760]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:676][761]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:676][761]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:702][762]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:702][762]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:728][763]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:728][763]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:750][764]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:751][764]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:774][765]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:774][765]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:793][766]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:793][766]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:820][767]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:820][767]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:839][768]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:839][768]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:862][769]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:862][769]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:886][770]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:886][770]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:908][771]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:908][771]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:928][772]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:928][772]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.06:947][773]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Create Blueprint Playerhealth HUD2 Widget' to 'Add to Viewport
+Target is User Widget'.
+[2015.11.05-00.11.22:426][279]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.11.22:516][279]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.11.22:550][279]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000391F2AC0
+[2015.11.05-00.11.22:598][280]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:13910).
+[2015.11.05-00.12.25:296][339]LogSavePackage: Save=125.219711ms
+[2015.11.05-00.12.25:296][339]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerCharacterA80E8156440EC33AC35FCCB1441919AC.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset'
+[2015.11.05-00.12.25:301][339]LogSavePackage: Total save time: 137.451127ms
+[2015.11.05-00.12.25:301][339]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Blueprints/2DSideScrollerCharacter.uasset
+[2015.11.05-00.13.23:534][913]LogSavePackage: Save=83.161972ms
+[2015.11.05-00.13.23:534][913]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap_Auto11FF636FD4A804338F83C949A6363A9BB.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap'
+[2015.11.05-00.13.23:536][913]LogSavePackage: Total save time: 89.938186ms
+[2015.11.05-00.13.23:536][913]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/Autosaves/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap_Auto1.umap
+[2015.11.05-00.13.23:538][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap' took 0.124
+[2015.11.05-00.13.23:538][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2015.11.05-00.15.03:414][446]LogSavePackage: Save=59.795345ms
+[2015.11.05-00.15.03:414][446]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap825DCE824F5F8D1764C8BDBCDFDEDE8B.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.03:417][446]LogSavePackage: Total save time: 64.378485ms
+[2015.11.05-00.15.03:417][446]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.04:644][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E70E7A0
+[2015.11.05-00.15.04:646][517]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002CA1E520
+[2015.11.05-00.15.04:715][517]LogSavePackage: Save=59.293430ms
+[2015.11.05-00.15.04:715][517]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap48D522FC463B17D232DCA0BFE0B09E33.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.04:716][517]LogSavePackage: Total save time: 62.191702ms
+[2015.11.05-00.15.04:716][517]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.06:865][637]LogSavePackage: Save=59.704300ms
+[2015.11.05-00.15.06:865][637]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap68FBEA194B103B10FDD24B90A982AD0B.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.06:866][637]LogSavePackage: Total save time: 62.693290ms
+[2015.11.05-00.15.06:866][637]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.07:833][686]LogSavePackage: Save=59.562927ms
+[2015.11.05-00.15.07:833][686]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap21AB96DA490CB1D4794F90BD801BA500.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.07:834][686]LogSavePackage: Total save time: 62.482059ms
+[2015.11.05-00.15.07:834][686]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.08:491][734]LogSavePackage: Save=57.026855ms
+[2015.11.05-00.15.08:491][734]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMapF7E8CF834654120445BF84B751F2E9E5.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.08:492][734]LogSavePackage: Total save time: 60.126759ms
+[2015.11.05-00.15.08:492][734]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.09:111][774]LogSavePackage: Save=58.049892ms
+[2015.11.05-00.15.09:111][774]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap2DC3AEF94491A21188F366B2253DEA2B.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.09:112][774]LogSavePackage: Total save time: 61.133571ms
+[2015.11.05-00.15.09:112][774]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.15.09:705][813]LogSavePackage: Save=54.657650ms
+[2015.11.05-00.15.09:705][813]LogSavePackage: Moving '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Saved/2DSideScrollerExampleMap959796B2470B3AB48AF23F984F9C0758.tmp' to '../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2015.11.05-00.15.09:706][813]LogSavePackage: Total save time: 57.611875ms
+[2015.11.05-00.15.09:706][813]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/yangh1/Documents/GitHub/2PlayerSideScroller/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap
+[2015.11.05-00.16.11:986][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.16.11:987][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.16.11:987][465]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:16:11 PM)
+[2015.11.05-00.16.11:987][465]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.16.11:992][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004765s)
+[2015.11.05-00.16.11:992][465]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.16.11:993][465]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2015.11.05-00.16.11:993][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.006062s)
+[2015.11.05-00.16.12:016][465]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.16.12:026][465]LogInit: FAudioDevice initialized.
+[2015.11.05-00.16.12:057][465]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.16.12:060][465]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.16.12
+[2015.11.05-00.16.12:060][465]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.16.12:061][465]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.16.12:061][465]LogWorld: Bringing up level for play took: 0.003000
+[2015.11.05-00.16.12:062][465]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.16.12:064][465]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.16.12:064][465]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.16.12:065][465]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.049
+[2015.11.05-00.16.12:065][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.16.14:964][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.16.14:999][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.16.15:022][767]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000125D6520
+[2015.11.05-00.42.41:637][476]LogActorFactory: Actor Factory created Cone
+[2015.11.05-00.42.42:426][504]LogActorFactory: Actor Factory created Cone
+[2015.11.05-00.43.01:741][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.43.01:741][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.05-00.43.01:741][136]PIE: New page: PIE session: 2DSideScrollerExampleMap (Nov 4, 2015, 2:43:01 PM)
+[2015.11.05-00.43.01:741][136]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2015.11.05-00.43.01:746][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005035s)
+[2015.11.05-00.43.01:748][136]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2015.11.05-00.43.01:748][136]LogPlayLevel: PIE: World Init took: (0.001732s)
+[2015.11.05-00.43.01:748][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.007050s)
+[2015.11.05-00.43.01:793][136]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.05-00.43.01:803][136]LogInit: FAudioDevice initialized.
+[2015.11.05-00.43.01:834][136]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.11.05-00.43.01:838][136]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2015.11.04-19.43.01
+[2015.11.05-00.43.01:838][136]LogActor:Warning: GameSession /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.43.01:838][136]LogActor:Warning: GameNetworkManager /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.05-00.43.01:895][136]LogWorld: Bringing up level for play took: 0.059294
+[2015.11.05-00.43.01:896][136]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.43.01:898][136]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2015.11.05-00.43.01:898][136]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2015.11.05-00.43.01:898][136]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.972
+[2015.11.05-00.43.01:899][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.43.13:404][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.43.13:465][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2015.11.05-00.43.13:534][897]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B40F600
+[2015.11.05-00.43.37:654][808]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2015.11.05-00.43.38:269][808]LogCrashTracker: 
+
+
+[2015.11.05-00.43.38:315][808]LogCrashTracker: 
+
+
+[2015.11.05-00.43.38:315][808]LogWindows: === Critical error: ===
+Assertion failed: false [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.9\Engine\Source\Editor\UnrealEd\Private\EditorViewportClient.cpp] [Line: 807] 
+
+
+
+
+
+[2015.11.05-00.43.38:426][808]LogExit: Executing StaticShutdownAfterError
+[2015.11.05-00.43.38:430][808]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-00.43.38:431][808]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2015.11.05-00.43.38:431][808]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.11.05-00.43.38:431][808]Log file closed, 11/04/15 19:43:38
